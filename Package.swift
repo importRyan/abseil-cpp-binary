@@ -18,6 +18,7 @@ import PackageDescription
 
 let package = Package(
   name: "abseil",
+  platforms: [.watchOS(.v9)],
   products: [
     .library(name: "abseil", targets: ["abslWrapper"])
   ],
